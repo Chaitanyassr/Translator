@@ -5,6 +5,7 @@
 </head>
 <body>
 	<label>English</label>
+	<label>japanease</label>
 
 </body>
 </html>

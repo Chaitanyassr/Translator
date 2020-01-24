@@ -5,7 +5,7 @@
 </head>
 <body>
 	<span>L.trans</span>
-	<p></p>
+	<p>A translator that destroy barier.</p>
 	<label>English</label>
 	<input for="English" name="English" placeholder="Enter the word" required>
 	<button type="submit action="">translate</button>

@@ -4,6 +4,8 @@
 	<title>Translator</title>
 </head>
 <body>
+	<span>L.trans</span>
+	<p></p>
 	<label>English</label>
 	<input for="English" name="English" placeholder="Enter the word" required>
 	<button type="submit action="">translate</button>

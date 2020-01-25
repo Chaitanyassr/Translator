@@ -1,14 +1,7 @@
 <?php
-$sql = "INSERT INTO `table1` (`srno`, `thankyou`) VALUES ('1', '123')";
 
+$query = select korean from translator;
 
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
-
-$conn->close();
 // echo "test2";
 // $sql = "SELECT id, firstname, lastname FROM MyGuests";
 // $result = mysqli_query($conn, $sql);

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<?php include 'DB.php';?>
 	<title>Translator</title>
 </head>
 <body>

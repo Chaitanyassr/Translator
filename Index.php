@@ -2,6 +2,7 @@
 <html>
 <head>
 	<?php include 'DB.php';?>
+	<?php include 'class.php';?>
 	<title>Translator</title>
 </head>
 <body>

@@ -1,6 +1,6 @@
 <?php
-$sql = "INSERT INTO `table1` (`srno`, `thankyou`) VALUES ('1', '123');
-VALUES ('John', 'Doe', 'john@example.com')";
+$sql = "INSERT INTO `table1` (`srno`, `thankyou`) VALUES ('1', '123')";
+
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";

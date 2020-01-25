@@ -8,9 +8,11 @@
 <body>
 	<span>L.trans</span>
 	<p>A translator that destroy barrier.</p>
+	<form action="Index.php" method="POST">
 	<label>English</label>
 	<input for="English" name="English" placeholder="Enter the word" required>
-	<button type="submit action="Index.php">translate</button>
+	<button type="submit">translate</button>
+</form>
 	<label>Korean</label>
 </body>
 </html>

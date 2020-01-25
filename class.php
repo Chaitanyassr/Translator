@@ -1,6 +1,10 @@
 <?php
+require_once(Index.php);
+echo "test3";
+$query = mysqli_query($conn,select korean from translator where english = "English");
 
-$query = select korean from translator;
+echo $query;
+
 
 // echo "test2";
 // $sql = "SELECT id, firstname, lastname FROM MyGuests";

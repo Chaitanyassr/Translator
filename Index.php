@@ -2,7 +2,7 @@
 <html>
 <head>
 	<?php include 'DB.php';?>
-	<?php include 'class.php';?>
+
 	<title>Translator</title>
 </head>
 <body>
@@ -14,6 +14,7 @@
 	<button type="submit">translate</button>
 </form>
 	<label>Korean</label>
+	<div id='status'></div>
 </body>
 </html>
 	 <?php
@@ -21,13 +22,7 @@ $typed_word = "";
 $status = "";
 if(isset($_POST["typed_word"])){
 	$typed_word = $_POST["typed_word"];
-	$dbex = new dbex();
-	$result = $dbex->extract($typed_word);
-	if($result != "OK"){
-		$status = $result;
-	} else {
-		$status = "please try again";
-	}
+	$status = q($typed_word);
 	echo "<script> document.getElementById('status').innerHTML = '".$status."';</script>";
 	?>
 	<?php

@@ -10,8 +10,7 @@
 	<p>A translator that destroy barrier.</p>
 	<label>English</label>
 	<input for="English" name="English" placeholder="Enter the word" required>
-	<button type="submit action="">translate</button>
+	<button type="submit action="Index.php">translate</button>
 	<label>Korean</label>
-		<input for="korean" name="korean" placeholder="" required>
 </body>
 </html>

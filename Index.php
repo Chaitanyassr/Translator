@@ -22,9 +22,9 @@ $status = "";
 if(isset($_POST["typed_word"])){
 	$typed_word = $_POST["typed_word"];
 	$dbex = new dbex();
-	$response = $dbex->extract($typed_word);
-	if($response != "OK"){
-		$status = $response;
+	$result = $dbex->extract($typed_word);
+	if($result != "OK"){
+		$status = $result;
 	} else {
 		$status = "please try again";
 	}

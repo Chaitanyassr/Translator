@@ -1,17 +1,3 @@
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,6 +11,5 @@ echo "Connected successfully";
 	<button type="submit action="">translate</button>
 	<label>japanease</label>
 		<input for="japanease" name="japanease" placeholder="" required>
-
 </body>
 </html>

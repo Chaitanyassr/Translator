@@ -12,6 +12,6 @@
 	<input for="English" name="English" placeholder="Enter the word" required>
 	<button type="submit action="">translate</button>
 	<label>japanease</label>
-		<input for="japanease" name="japanease" placeholder="" required>
+		<input for="korean" name="korean" placeholder="" required>
 </body>
 </html>

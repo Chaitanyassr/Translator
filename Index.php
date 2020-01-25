@@ -1,7 +1,7 @@
 
 <?php
 $servername = "localhost";
-$username = "roo";
+$username = "root";
 $password = "";
 
 // Create connection
@@ -13,7 +13,6 @@ if ($conn->connect_error) {
 }
 echo "Connected successfully";
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
